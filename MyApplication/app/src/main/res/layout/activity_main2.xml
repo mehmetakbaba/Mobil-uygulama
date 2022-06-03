@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"/>
+
+        <ImageButton
+            android:id="@+id/saul1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/saul1"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"/>
+
+        <ImageButton
+            android:id="@+id/how1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/how1"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"/>
+
+        <ImageButton
+            android:id="@+id/saul2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/saul3"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"/>
+
+        <ImageButton
+            android:id="@+id/saul3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/saul4"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"/>
+
+        <ImageButton
+            android:id="@+id/how2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/how2"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"/>
+
+        <ImageButton
+            android:id="@+id/saul4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/saul"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"/>
+
+        <ImageButton
+            android:id="@+id/how3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/how3"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"/>
+
+        <ImageButton
+            android:id="@+id/how4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/how4"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"/>
+
+        <ImageButton
+            android:id="@+id/bat1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/batman2"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"/>
+
+        <ImageButton
+            android:id="@+id/bat2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/joker2"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"/>
+
+        <ImageButton
+            android:id="@+id/bat3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/x"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"/>
+
+        <ImageButton
+            android:id="@+id/bat4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/joker3"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative"
+    android:background="@color/x"
+    android:orientation="vertical"
+    tools:context=".MainActivity5">
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/textHadis"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/alistirmaGec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listGec"
+        android:backgroundTint="@color/black"
+        android:padding="10dp"
+        android:text="Alıştırma"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/listGec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:padding="10dp"
+        android:text="Dinleme"
+        android:layout_above="@+id/camGec"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="581dp" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/camGec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/black"
+        android:padding="10dp"
+        android:text="Tahmin"
+        android:textSize="25sp" />
+
+</RelativeLayout>
